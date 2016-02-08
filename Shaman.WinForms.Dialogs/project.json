@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0-beta-4091",
+  "compilationOptions": {
+    "keyFile": "ShamanOpenSourceKey.snk"
+  },
+  "compile": [
+    "**/*.cs"
+  ],
+  "frameworks": {
+    "net45": {
+      "frameworkAssemblies": {
+        "System.Drawing": "4.0.0",
+        "System.Windows.Forms": "4.0.0",
+        "System.Core": "4.0.0"
+      }
+    }
+  }
+}
